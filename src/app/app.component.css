@@ -1,0 +1,36 @@
+.cuadro{
+  background-color: #eee;
+  color: #3E6075;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+.cuadro2{
+  background-color: #eee;
+  color: #3E6075;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+a{
+  color: #99335E;
+}
+a:hover{
+  color: #339966;
+}
+.comp2{
+  background-color: #999;
+  color: #274253;
+  font-family: cursive;
+  padding: 2px 0px 4px 10px;
+  border-radius: 5px;
+}
+.btn{
+  display: block;
+  margin: 4px;
+}
+input{
+  border-radius: 10px;
+  border-style: none;
+  padding: 3px;
+}
