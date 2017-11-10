@@ -26,8 +26,6 @@ export class AppComponent {
     this.showTemas = !this.showTemas;
   }
 
-  newTemas(temas) {
-    this.temas.push(temas.value);
     tema.value = '';
     return false;
   }
