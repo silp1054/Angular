@@ -10,9 +10,9 @@
   <h1>{{name}}</h1>
   <p>{{email}}</p>
   <a href="{{website}}" target="_blank">{{website}}</a>
-  <button (click)="toggleTemas()" type="button" name="button" class="btn">{{showTemas ? 'Ocultar Temas' : 'Mostrar Temas'}}</button>
-  <div *ngIf="showTemas" class="comp2">
-    <h2>Temas:</h2>
+   <button (click)="toggleTemas()" type="button" name="button" class="btn">{{showTemas ? 'Ocultar Temas' : 'Mostrar Temas'}}</button>
+     <div *ngIf="showTemas" class="comp2">
+    <h2>Muchos Temas:</h2>
     <ol>
        <li *ngFor="let tema of temas">{{tema}}</li>
     </ol>
