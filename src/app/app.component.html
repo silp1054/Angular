@@ -13,9 +13,9 @@
   <button (click)="toggleTemas()" type="button" name="button" class="btn">{{showTemas ? 'Ocultar Temas' : 'Mostrar Temas'}}</button>
   <div *ngIf="showTemas" class="comp2">
     <h2>Temas:</h2>
-    <ol>
+    <!-- <ol>
        <li *ngFor="let tema of temas">{{tema}}</li>
-    </ol>
+    </ol> -->
     <form (submit)="newTema(tema)">
       <input #tema type="text" name="temas" value="" placeholder="Temas">
       {{item.FullName}}
